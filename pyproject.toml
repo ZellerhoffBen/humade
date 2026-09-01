@@ -1,0 +1,14 @@
+[project]
+name = "ai-summarybot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=26.5.1",
+    "dotenv>=0.9.9",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "notebook>=7.6.1",
+    "openai>=2.53.0",
+]
