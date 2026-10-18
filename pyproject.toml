@@ -1,16 +1,30 @@
 [project]
-name = "ai-summarybot"
+name = "humade"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "black>=26.5.1",
     "dotenv>=0.9.9",
     "ipykernel>=7.3.0",
     "jupyter>=1.1.1",
+    "jupyterlab>=4.6.2",
+    "kaggle>=2.2.4",
+    "kagglehub>=1.0.2",
     "notebook>=7.6.1",
-    "openai>=2.53.0",
-    "pangram-sdk>=1.0.0",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.1",
     "streamlit>=1.62.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.1",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

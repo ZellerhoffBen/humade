@@ -2,14 +2,10 @@
 
 Humade checks your public Github repo for signs of human-written development.
 
-It currently looks at two things:
-
-* **Git history:** commit size, commit structure, incremental changes, fixes, suspicious authors (claude, codex, ...), etc.
+It currently looks at this:
 * **Code samples:** — selected parts of the codebase are checked with an AI-code detection model.
 
 It's a way to find out, how a project was likely built.
-
-Later, Humade may generate a badge that can be added to a README or website. With his Badge, you can display, that your project was largely human made
 
 
 ## Why
