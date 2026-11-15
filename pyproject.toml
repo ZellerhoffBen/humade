@@ -12,6 +12,7 @@ dependencies = [
     "jupyterlab>=4.6.2",
     "kaggle>=2.2.4",
     "kagglehub>=1.0.2",
+    "matplotlib>=3.11.2",
     "notebook>=7.6.1",
     "pandas>=3.0.5",
     "scikit-learn>=1.9.1",
