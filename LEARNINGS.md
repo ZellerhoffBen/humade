@@ -49,3 +49,16 @@ cv=5 -> produces 5 cross validation folds
 Sklearn Pipeline puts data-processing and a final model into a single object. With a Pipeline the entire process, from raw data to prediction, is executed, tuned, and can be reused with multiple datasets using a single command.
 Every step except the last one has to be a transformer. Last one can be a classifier for example
 
+## combinations
+combination function of built in itertools library. combinations(elements, groupsize)
+from itertools import combinations
+elems = ("eins", "zwei", "drei")
+for a, b in combinations(elems, 2):
+    print(a, b)
+
+## all
+takes an iterable and return true if all elements are true
+all(a.isdisjoint(b) for a, b in combinations(splits, 2))
+
+## permutation importance
+##select k best
